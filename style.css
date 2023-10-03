@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(228, 223, 223);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #334155;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 40%;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.btnnav {
+  font-weight: 700;
+  padding: 8px 20px;
+  border: none;
+  background: #4ca8e1;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.btnnav:hover {
+  background-color: rgb(60, 117, 171);
+}
+/*NAV Section Ends */
+
+/*Hero Section Starts */
+
+.hero-image {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url("heroimage.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 630px;
+}
+
+.hero-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 20px;
+}
+.hero-image .hero-display h1,
+p {
+  line-height: 1.5;
+  margin: 20px;
+  text-align: center;
+}
+.hero-image .hero-display button {
+  font-weight: 800;
+  font-size: 15px;
+  padding: 8px 20px;
+  border: none;
+  background: #4ca8e1;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+}
+.hero-image .hero-display button:hover {
+  background-color: rgb(60, 117, 171);
+}
+/*Hero Section Ends */
+/*Information Section Starts */
+.info-Section {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.info-pic {
+  width: 50%;
+  margin-left: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 60%;
+}
+.info-Section .content p,
+h1,
+h4 {
+  line-height: 1.5;
+  margin: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.info-buttons .btn {
+  font-weight: bold;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-inline: 20px;
+}
+.infoAnsökBtn {
+  background: black;
+  color: white;
+}
+.infoAnsökBtn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.info-buttons .infoLäsmerBtn {
+  background: rgb(248, 244, 244);
+  color: rgb(9, 9, 9);
+  border: 1px solid black;
+}
+.infoLäsmerBtn:hover {
+  background-color: rgb(9, 9, 9);
+  color: rgb(243, 240, 240);
+}
+/*Information Section Ends */
+/*Recomendations Section Start */
+.recomendations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfd1d1;
+  width: 100%;
+  padding: 80px;
+}
+.recomend-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 80px;
+}
+.recomendations1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+}
+
+.recomendations1 img {
+  margin-bottom: 80px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.recomendations1 h3,
+p {
+  margin: 10px;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-elements1 ul li a {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-elements1 ul li {
+  list-style-type: none;
+}
+
+.footer-elements2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-elements2 button {
+  font-weight: 700;
+  padding: 8px 20px;
+  border: 1px solid;
+  background: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #090909;
+}
+.footer-elements2 button:hover {
+  background: #0e0e0e;
+  color: #fff;
+}
+
+.footer-elements3 img {
+  border-radius: 90px;
+}
+
+/* nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+} */
