@@ -151,7 +151,7 @@ h4 {
 .infoAnsökBtn:hover {
   background-color: white;
   color: black;
-  border: 1px solid black;
+  border: 1px solid rgb(10, 10, 10);
 }
 .info-buttons .infoLäsmerBtn {
   background: rgb(240, 239, 239);
