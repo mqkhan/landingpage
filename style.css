@@ -103,6 +103,19 @@ p {
 .hero-image .hero-display button:hover {
   background-color: rgb(60, 117, 171);
 }
+.roundbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  margin-top: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
 /*Hero Section Ends */
 /*Information Section Starts */
 .info-Section {
