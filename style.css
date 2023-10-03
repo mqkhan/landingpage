@@ -145,7 +145,7 @@ h4 {
   margin-inline: 20px;
 }
 .infoAnsökBtn {
-  background: black;
+  background: rgb(3, 3, 3);
   color: white;
 }
 .infoAnsökBtn:hover {
