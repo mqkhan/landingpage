@@ -206,6 +206,7 @@ p {
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .footer-elements1 ul li a {
@@ -242,19 +243,3 @@ p {
 .footer-elements3 img {
   border-radius: 90px;
 }
-
-/* nav ul {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-nav ul li {
-  list-style-type: none;
-}
-
-nav ul li a {
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-} */
