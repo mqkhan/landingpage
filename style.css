@@ -1,11 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 body {
   background-color: rgb(228, 223, 223);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 nav {
@@ -129,6 +131,7 @@ p {
 }
 
 .info-pic {
+  display: flex;
   width: 50%;
   margin-left: 50px;
 }
@@ -136,8 +139,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  width: 60%;
+  align-items: right;
+  width: 50%;
 }
 .info-Section .content p,
 h1,
@@ -146,6 +149,7 @@ h4 {
   margin: 20px;
   text-align: left;
   margin-bottom: 30px;
+  text-transform: none;
 }
 
 .info-buttons .btn {
